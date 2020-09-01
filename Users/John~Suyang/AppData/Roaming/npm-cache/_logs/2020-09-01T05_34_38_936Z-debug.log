@@ -1,0 +1,535 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'sass'
+1 verbose cli ]
+2 info using npm@6.14.6
+3 info using node@v12.18.3
+4 verbose npm-session 79e4a71e369e83ee
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 304 https://registry.npmjs.org/sass 1064ms (from cache)
+8 silly pacote tag manifest for sass@latest fetched in 1076ms
+9 timing stage:loadCurrentTree Completed in 1086ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 0ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 1ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule sass@1.26.10 checking installable status
+17 http fetch GET 304 https://registry.npmjs.org/chokidar 289ms (from cache)
+18 silly pacote range manifest for chokidar@>=2.0.0 <4.0.0 fetched in 294ms
+19 silly resolveWithNewModule chokidar@3.4.2 checking installable status
+20 http fetch GET 304 https://registry.npmjs.org/glob-parent 542ms (from cache)
+21 silly pacote range manifest for glob-parent@~5.1.0 fetched in 546ms
+22 silly resolveWithNewModule glob-parent@5.1.1 checking installable status
+23 http fetch GET 304 https://registry.npmjs.org/is-binary-path 947ms (from cache)
+24 silly pacote range manifest for is-binary-path@~2.1.0 fetched in 950ms
+25 silly resolveWithNewModule is-binary-path@2.1.0 checking installable status
+26 http fetch GET 304 https://registry.npmjs.org/fsevents 947ms (from cache)
+27 http fetch GET 304 https://registry.npmjs.org/anymatch 954ms (from cache)
+28 silly pacote range manifest for fsevents@~2.1.2 fetched in 950ms
+29 silly resolveWithNewModule fsevents@2.1.3 checking installable status
+30 silly pacote range manifest for anymatch@~3.1.1 fetched in 957ms
+31 silly resolveWithNewModule anymatch@3.1.1 checking installable status
+32 http fetch GET 304 https://registry.npmjs.org/is-glob 955ms (from cache)
+33 silly pacote range manifest for is-glob@~4.0.1 fetched in 956ms
+34 silly resolveWithNewModule is-glob@4.0.1 checking installable status
+35 http fetch GET 304 https://registry.npmjs.org/readdirp 955ms (from cache)
+36 silly pacote range manifest for readdirp@~3.4.0 fetched in 956ms
+37 silly resolveWithNewModule readdirp@3.4.0 checking installable status
+38 http fetch GET 304 https://registry.npmjs.org/braces 1960ms (from cache)
+39 http fetch GET 304 https://registry.npmjs.org/normalize-path 1959ms (from cache)
+40 silly pacote range manifest for braces@~3.0.2 fetched in 1963ms
+41 silly resolveWithNewModule braces@3.0.2 checking installable status
+42 silly pacote range manifest for normalize-path@~3.0.0 fetched in 1961ms
+43 silly resolveWithNewModule normalize-path@3.0.0 checking installable status
+44 http fetch GET 304 https://registry.npmjs.org/picomatch 222ms (from cache)
+45 silly pacote range manifest for picomatch@^2.0.4 fetched in 225ms
+46 silly resolveWithNewModule picomatch@2.2.2 checking installable status
+47 http fetch GET 304 https://registry.npmjs.org/fill-range 302ms (from cache)
+48 silly pacote range manifest for fill-range@^7.0.1 fetched in 305ms
+49 silly resolveWithNewModule fill-range@7.0.1 checking installable status
+50 http fetch GET 304 https://registry.npmjs.org/to-regex-range 259ms (from cache)
+51 silly pacote range manifest for to-regex-range@^5.0.1 fetched in 264ms
+52 silly resolveWithNewModule to-regex-range@5.0.1 checking installable status
+53 http fetch GET 304 https://registry.npmjs.org/is-number 301ms (from cache)
+54 silly pacote range manifest for is-number@^7.0.0 fetched in 305ms
+55 silly resolveWithNewModule is-number@7.0.0 checking installable status
+56 http fetch GET 304 https://registry.npmjs.org/is-extglob 271ms (from cache)
+57 silly pacote range manifest for is-extglob@^2.1.1 fetched in 274ms
+58 silly resolveWithNewModule is-extglob@2.1.1 checking installable status
+59 http fetch GET 304 https://registry.npmjs.org/binary-extensions 261ms (from cache)
+60 silly pacote range manifest for binary-extensions@^2.0.0 fetched in 266ms
+61 silly resolveWithNewModule binary-extensions@2.1.0 checking installable status
+62 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 3923ms
+63 timing stage:loadIdealTree Completed in 3937ms
+64 silly currentTree npm
+65 silly idealTree npm
+65 silly idealTree `-- sass@1.26.10
+65 silly idealTree   +-- anymatch@3.1.1
+65 silly idealTree   +-- binary-extensions@2.1.0
+65 silly idealTree   +-- braces@3.0.2
+65 silly idealTree   +-- chokidar@3.4.2
+65 silly idealTree   +-- fill-range@7.0.1
+65 silly idealTree   +-- fsevents@2.1.3
+65 silly idealTree   +-- glob-parent@5.1.1
+65 silly idealTree   +-- is-binary-path@2.1.0
+65 silly idealTree   +-- is-extglob@2.1.1
+65 silly idealTree   +-- is-glob@4.0.1
+65 silly idealTree   +-- is-number@7.0.0
+65 silly idealTree   +-- normalize-path@3.0.0
+65 silly idealTree   +-- picomatch@2.2.2
+65 silly idealTree   +-- readdirp@3.4.0
+65 silly idealTree   `-- to-regex-range@5.0.1
+66 silly install generateActionsToTake
+67 timing stage:generateActionsToTake Completed in 6ms
+68 silly diffTrees action count 16
+69 silly diffTrees add binary-extensions@2.1.0
+70 silly diffTrees add fsevents@2.1.3
+71 silly diffTrees add is-binary-path@2.1.0
+72 silly diffTrees add is-extglob@2.1.1
+73 silly diffTrees add is-glob@4.0.1
+74 silly diffTrees add glob-parent@5.1.1
+75 silly diffTrees add is-number@7.0.0
+76 silly diffTrees add normalize-path@3.0.0
+77 silly diffTrees add picomatch@2.2.2
+78 silly diffTrees add anymatch@3.1.1
+79 silly diffTrees add readdirp@3.4.0
+80 silly diffTrees add to-regex-range@5.0.1
+81 silly diffTrees add fill-range@7.0.1
+82 silly diffTrees add braces@3.0.2
+83 silly diffTrees add chokidar@3.4.2
+84 silly diffTrees add sass@1.26.10
+85 silly decomposeActions action count 128
+86 silly decomposeActions fetch binary-extensions@2.1.0
+87 silly decomposeActions extract binary-extensions@2.1.0
+88 silly decomposeActions preinstall binary-extensions@2.1.0
+89 silly decomposeActions build binary-extensions@2.1.0
+90 silly decomposeActions install binary-extensions@2.1.0
+91 silly decomposeActions postinstall binary-extensions@2.1.0
+92 silly decomposeActions finalize binary-extensions@2.1.0
+93 silly decomposeActions refresh-package-json binary-extensions@2.1.0
+94 silly decomposeActions fetch fsevents@2.1.3
+95 silly decomposeActions extract fsevents@2.1.3
+96 silly decomposeActions preinstall fsevents@2.1.3
+97 silly decomposeActions build fsevents@2.1.3
+98 silly decomposeActions install fsevents@2.1.3
+99 silly decomposeActions postinstall fsevents@2.1.3
+100 silly decomposeActions finalize fsevents@2.1.3
+101 silly decomposeActions refresh-package-json fsevents@2.1.3
+102 silly decomposeActions fetch is-binary-path@2.1.0
+103 silly decomposeActions extract is-binary-path@2.1.0
+104 silly decomposeActions preinstall is-binary-path@2.1.0
+105 silly decomposeActions build is-binary-path@2.1.0
+106 silly decomposeActions install is-binary-path@2.1.0
+107 silly decomposeActions postinstall is-binary-path@2.1.0
+108 silly decomposeActions finalize is-binary-path@2.1.0
+109 silly decomposeActions refresh-package-json is-binary-path@2.1.0
+110 silly decomposeActions fetch is-extglob@2.1.1
+111 silly decomposeActions extract is-extglob@2.1.1
+112 silly decomposeActions preinstall is-extglob@2.1.1
+113 silly decomposeActions build is-extglob@2.1.1
+114 silly decomposeActions install is-extglob@2.1.1
+115 silly decomposeActions postinstall is-extglob@2.1.1
+116 silly decomposeActions finalize is-extglob@2.1.1
+117 silly decomposeActions refresh-package-json is-extglob@2.1.1
+118 silly decomposeActions fetch is-glob@4.0.1
+119 silly decomposeActions extract is-glob@4.0.1
+120 silly decomposeActions preinstall is-glob@4.0.1
+121 silly decomposeActions build is-glob@4.0.1
+122 silly decomposeActions install is-glob@4.0.1
+123 silly decomposeActions postinstall is-glob@4.0.1
+124 silly decomposeActions finalize is-glob@4.0.1
+125 silly decomposeActions refresh-package-json is-glob@4.0.1
+126 silly decomposeActions fetch glob-parent@5.1.1
+127 silly decomposeActions extract glob-parent@5.1.1
+128 silly decomposeActions preinstall glob-parent@5.1.1
+129 silly decomposeActions build glob-parent@5.1.1
+130 silly decomposeActions install glob-parent@5.1.1
+131 silly decomposeActions postinstall glob-parent@5.1.1
+132 silly decomposeActions finalize glob-parent@5.1.1
+133 silly decomposeActions refresh-package-json glob-parent@5.1.1
+134 silly decomposeActions fetch is-number@7.0.0
+135 silly decomposeActions extract is-number@7.0.0
+136 silly decomposeActions preinstall is-number@7.0.0
+137 silly decomposeActions build is-number@7.0.0
+138 silly decomposeActions install is-number@7.0.0
+139 silly decomposeActions postinstall is-number@7.0.0
+140 silly decomposeActions finalize is-number@7.0.0
+141 silly decomposeActions refresh-package-json is-number@7.0.0
+142 silly decomposeActions fetch normalize-path@3.0.0
+143 silly decomposeActions extract normalize-path@3.0.0
+144 silly decomposeActions preinstall normalize-path@3.0.0
+145 silly decomposeActions build normalize-path@3.0.0
+146 silly decomposeActions install normalize-path@3.0.0
+147 silly decomposeActions postinstall normalize-path@3.0.0
+148 silly decomposeActions finalize normalize-path@3.0.0
+149 silly decomposeActions refresh-package-json normalize-path@3.0.0
+150 silly decomposeActions fetch picomatch@2.2.2
+151 silly decomposeActions extract picomatch@2.2.2
+152 silly decomposeActions preinstall picomatch@2.2.2
+153 silly decomposeActions build picomatch@2.2.2
+154 silly decomposeActions install picomatch@2.2.2
+155 silly decomposeActions postinstall picomatch@2.2.2
+156 silly decomposeActions finalize picomatch@2.2.2
+157 silly decomposeActions refresh-package-json picomatch@2.2.2
+158 silly decomposeActions fetch anymatch@3.1.1
+159 silly decomposeActions extract anymatch@3.1.1
+160 silly decomposeActions preinstall anymatch@3.1.1
+161 silly decomposeActions build anymatch@3.1.1
+162 silly decomposeActions install anymatch@3.1.1
+163 silly decomposeActions postinstall anymatch@3.1.1
+164 silly decomposeActions finalize anymatch@3.1.1
+165 silly decomposeActions refresh-package-json anymatch@3.1.1
+166 silly decomposeActions fetch readdirp@3.4.0
+167 silly decomposeActions extract readdirp@3.4.0
+168 silly decomposeActions preinstall readdirp@3.4.0
+169 silly decomposeActions build readdirp@3.4.0
+170 silly decomposeActions install readdirp@3.4.0
+171 silly decomposeActions postinstall readdirp@3.4.0
+172 silly decomposeActions finalize readdirp@3.4.0
+173 silly decomposeActions refresh-package-json readdirp@3.4.0
+174 silly decomposeActions fetch to-regex-range@5.0.1
+175 silly decomposeActions extract to-regex-range@5.0.1
+176 silly decomposeActions preinstall to-regex-range@5.0.1
+177 silly decomposeActions build to-regex-range@5.0.1
+178 silly decomposeActions install to-regex-range@5.0.1
+179 silly decomposeActions postinstall to-regex-range@5.0.1
+180 silly decomposeActions finalize to-regex-range@5.0.1
+181 silly decomposeActions refresh-package-json to-regex-range@5.0.1
+182 silly decomposeActions fetch fill-range@7.0.1
+183 silly decomposeActions extract fill-range@7.0.1
+184 silly decomposeActions preinstall fill-range@7.0.1
+185 silly decomposeActions build fill-range@7.0.1
+186 silly decomposeActions install fill-range@7.0.1
+187 silly decomposeActions postinstall fill-range@7.0.1
+188 silly decomposeActions finalize fill-range@7.0.1
+189 silly decomposeActions refresh-package-json fill-range@7.0.1
+190 silly decomposeActions fetch braces@3.0.2
+191 silly decomposeActions extract braces@3.0.2
+192 silly decomposeActions preinstall braces@3.0.2
+193 silly decomposeActions build braces@3.0.2
+194 silly decomposeActions install braces@3.0.2
+195 silly decomposeActions postinstall braces@3.0.2
+196 silly decomposeActions finalize braces@3.0.2
+197 silly decomposeActions refresh-package-json braces@3.0.2
+198 silly decomposeActions fetch chokidar@3.4.2
+199 silly decomposeActions extract chokidar@3.4.2
+200 silly decomposeActions preinstall chokidar@3.4.2
+201 silly decomposeActions build chokidar@3.4.2
+202 silly decomposeActions install chokidar@3.4.2
+203 silly decomposeActions postinstall chokidar@3.4.2
+204 silly decomposeActions finalize chokidar@3.4.2
+205 silly decomposeActions refresh-package-json chokidar@3.4.2
+206 silly decomposeActions fetch sass@1.26.10
+207 silly decomposeActions extract sass@1.26.10
+208 silly decomposeActions preinstall sass@1.26.10
+209 silly decomposeActions build sass@1.26.10
+210 silly decomposeActions install sass@1.26.10
+211 silly decomposeActions postinstall sass@1.26.10
+212 silly decomposeActions finalize sass@1.26.10
+213 silly decomposeActions refresh-package-json sass@1.26.10
+214 silly install executeActions
+215 silly doSerial global-install 128
+216 verbose correctMkdir C:\xampp\htdocs\sass-project-01\Users\John~Suyang\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+217 verbose makeCacheDir UID & GID are irrelevant on win32
+218 verbose lock using C:\xampp\htdocs\sass-project-01\Users\John~Suyang\AppData\Roaming\npm-cache\_locks\staging-c7a0bc720cc28e97.lock for C:\Users\John Suyang\AppData\Roaming\npm\node_modules\.staging
+219 silly doParallel extract 16
+220 silly extract binary-extensions@2.1.0
+221 silly extract is-binary-path@2.1.0
+222 silly extract is-extglob@2.1.1
+223 silly extract is-glob@4.0.1
+224 silly extract glob-parent@5.1.1
+225 silly extract is-number@7.0.0
+226 silly extract normalize-path@3.0.0
+227 silly extract picomatch@2.2.2
+228 silly extract anymatch@3.1.1
+229 silly extract readdirp@3.4.0
+230 silly extract to-regex-range@5.0.1
+231 silly extract fill-range@7.0.1
+232 silly extract braces@3.0.2
+233 silly extract chokidar@3.4.2
+234 silly extract sass@1.26.10
+235 silly tarball trying binary-extensions@^2.0.0 by hash: sha512-1Yj8h9Q+QDF5FzhMs/c9+6UntbD5MkRfRwac8DoEm9ZfUBZ7tZ55YcGVAzEe4bXsdQHEk+s9S5wsOKVdZrw0tQ==
+236 silly tarball trying is-extglob@^2.1.1 by hash: sha1-qIwCU1eR8C7TfHahueqXc8gz+MI=
+237 silly tarball trying is-binary-path@~2.1.0 by hash: sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==
+238 silly tarball trying is-number@^7.0.0 by hash: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==
+239 silly tarball trying glob-parent@~5.1.0 by hash: sha512-FnI+VGOpnlGHWZxthPGR+QhR78fuiK0sNLkHQv+bL9fQi57lNNdquIbna/WrfROrolq8GK5Ek6BiMwqL/voRYQ==
+240 silly tarball trying is-glob@~4.0.1 by hash: sha512-5G0tKtBTFImOqDnLB2hG6Bp2qcKEFduo4tZu9MT/H6NQv/ghhy30o55ufafxJ/LdH79LLs2Kfrn85TLKyA7BUg==
+241 silly tarball trying normalize-path@~3.0.0 by hash: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
+242 silly tarball trying picomatch@^2.0.4 by hash: sha512-q0M/9eZHzmr0AulXyPwNfZjtwZ/RBZlbN3K3CErVrk50T2ASYI7Bye0EvekFY3IP1Nt2DHu0re+V2ZHIpMkuWg==
+243 silly tarball trying anymatch@~3.1.1 by hash: sha512-mM8522psRCqzV+6LhomX5wgp25YVibjh8Wj23I5RPkPppSVSjyKD2A2mBJmWGa+KN7f2D6LNh9jkBCeyLktzjg==
+244 silly tarball trying to-regex-range@^5.0.1 by hash: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==
+245 silly tarball trying readdirp@~3.4.0 by hash: sha512-0xe001vZBnJEK+uKcj8qOhyAKPzIT+gStxWr3LCB0DwcXR5NZJ3IaC+yGnHCYzB/S7ov3m3EEbZI2zeNvX+hGQ==
+246 silly tarball trying fill-range@^7.0.1 by hash: sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==
+247 silly tarball trying braces@~3.0.2 by hash: sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==
+248 silly tarball trying chokidar@>=2.0.0 <4.0.0 by hash: sha512-IZHaDeBeI+sZJRX7lGcXsdzgvZqKv6sECqsbErJA4mHWfpRrD8B97kSFN4cQz6nGBGiuFia1MKR4d6c1o8Cv7A==
+249 silly tarball trying sass@latest by hash: sha512-bzN0uvmzfsTvjz0qwccN1sPm2HxxpNI/Xa+7PlUEMS+nQvbyuEK7Y0qFqxlPHhiNHb1Ze8WQJtU31olMObkAMw==
+250 silly extract is-number@^7.0.0 extracted to C:\Users\John Suyang\AppData\Roaming\npm\node_modules\.staging\is-number-53fc7dbb (41ms)
+251 silly extract glob-parent@~5.1.0 extracted to C:\Users\John Suyang\AppData\Roaming\npm\node_modules\.staging\glob-parent-2ef5f7fd (43ms)
+252 silly extract is-glob@~4.0.1 extracted to C:\Users\John Suyang\AppData\Roaming\npm\node_modules\.staging\is-glob-0cc81d49 (43ms)
+253 silly extract normalize-path@~3.0.0 extracted to C:\Users\John Suyang\AppData\Roaming\npm\node_modules\.staging\normalize-path-781ad476 (42ms)
+254 silly extract to-regex-range@^5.0.1 extracted to C:\Users\John Suyang\AppData\Roaming\npm\node_modules\.staging\to-regex-range-f6b76935 (43ms)
+255 silly extract fill-range@^7.0.1 extracted to C:\Users\John Suyang\AppData\Roaming\npm\node_modules\.staging\fill-range-0672ac22 (42ms)
+256 silly extract anymatch@~3.1.1 extracted to C:\Users\John Suyang\AppData\Roaming\npm\node_modules\.staging\anymatch-a1329949 (43ms)
+257 silly extract is-extglob@^2.1.1 extracted to C:\Users\John Suyang\AppData\Roaming\npm\node_modules\.staging\is-extglob-e82d77b4 (44ms)
+258 silly extract is-binary-path@~2.1.0 extracted to C:\Users\John Suyang\AppData\Roaming\npm\node_modules\.staging\is-binary-path-7036e1ed (45ms)
+259 silly extract readdirp@~3.4.0 extracted to C:\Users\John Suyang\AppData\Roaming\npm\node_modules\.staging\readdirp-2da7fbb6 (44ms)
+260 silly extract binary-extensions@^2.0.0 extracted to C:\Users\John Suyang\AppData\Roaming\npm\node_modules\.staging\binary-extensions-90d720fd (45ms)
+261 silly extract picomatch@^2.0.4 extracted to C:\Users\John Suyang\AppData\Roaming\npm\node_modules\.staging\picomatch-aaf9dc3c (46ms)
+262 silly extract braces@~3.0.2 extracted to C:\Users\John Suyang\AppData\Roaming\npm\node_modules\.staging\braces-1c253d02 (45ms)
+263 silly extract chokidar@>=2.0.0 <4.0.0 extracted to C:\Users\John Suyang\AppData\Roaming\npm\node_modules\.staging\chokidar-99904513 (46ms)
+264 silly extract sass@latest extracted to C:\Users\John Suyang\AppData\Roaming\npm\node_modules\.staging\sass-9f71a4e8 (62ms)
+265 timing action:extract Completed in 71ms
+266 silly doReverseSerial unbuild 128
+267 silly doSerial remove 128
+268 silly doSerial move 128
+269 silly doSerial finalize 128
+270 silly finalize C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules\binary-extensions
+271 silly finalize C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules\is-binary-path
+272 silly finalize C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules\is-extglob
+273 silly finalize C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules\is-glob
+274 silly finalize C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules\glob-parent
+275 silly finalize C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules\is-number
+276 silly finalize C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules\normalize-path
+277 silly finalize C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules\picomatch
+278 silly finalize C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules\anymatch
+279 silly finalize C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules\readdirp
+280 silly finalize C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules\to-regex-range
+281 silly finalize C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules\fill-range
+282 silly finalize C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules\braces
+283 silly finalize C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules\chokidar
+284 silly finalize C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass
+285 timing action:finalize Completed in 25ms
+286 silly doParallel refresh-package-json 16
+287 silly refresh-package-json C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules\binary-extensions
+288 silly refresh-package-json C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules\is-binary-path
+289 silly refresh-package-json C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules\is-extglob
+290 silly refresh-package-json C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules\is-glob
+291 silly refresh-package-json C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules\glob-parent
+292 silly refresh-package-json C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules\is-number
+293 silly refresh-package-json C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules\normalize-path
+294 silly refresh-package-json C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules\picomatch
+295 silly refresh-package-json C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules\anymatch
+296 silly refresh-package-json C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules\readdirp
+297 silly refresh-package-json C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules\to-regex-range
+298 silly refresh-package-json C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules\fill-range
+299 silly refresh-package-json C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules\braces
+300 silly refresh-package-json C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules\chokidar
+301 silly refresh-package-json C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass
+302 timing action:refresh-package-json Completed in 34ms
+303 silly doParallel preinstall 16
+304 silly preinstall binary-extensions@2.1.0
+305 info lifecycle binary-extensions@2.1.0~preinstall: binary-extensions@2.1.0
+306 silly preinstall is-binary-path@2.1.0
+307 info lifecycle is-binary-path@2.1.0~preinstall: is-binary-path@2.1.0
+308 silly preinstall is-extglob@2.1.1
+309 info lifecycle is-extglob@2.1.1~preinstall: is-extglob@2.1.1
+310 silly preinstall is-glob@4.0.1
+311 info lifecycle is-glob@4.0.1~preinstall: is-glob@4.0.1
+312 silly preinstall glob-parent@5.1.1
+313 info lifecycle glob-parent@5.1.1~preinstall: glob-parent@5.1.1
+314 silly preinstall is-number@7.0.0
+315 info lifecycle is-number@7.0.0~preinstall: is-number@7.0.0
+316 silly preinstall normalize-path@3.0.0
+317 info lifecycle normalize-path@3.0.0~preinstall: normalize-path@3.0.0
+318 silly preinstall picomatch@2.2.2
+319 info lifecycle picomatch@2.2.2~preinstall: picomatch@2.2.2
+320 silly preinstall anymatch@3.1.1
+321 info lifecycle anymatch@3.1.1~preinstall: anymatch@3.1.1
+322 silly preinstall readdirp@3.4.0
+323 info lifecycle readdirp@3.4.0~preinstall: readdirp@3.4.0
+324 silly preinstall to-regex-range@5.0.1
+325 info lifecycle to-regex-range@5.0.1~preinstall: to-regex-range@5.0.1
+326 silly preinstall fill-range@7.0.1
+327 info lifecycle fill-range@7.0.1~preinstall: fill-range@7.0.1
+328 silly preinstall braces@3.0.2
+329 info lifecycle braces@3.0.2~preinstall: braces@3.0.2
+330 silly preinstall chokidar@3.4.2
+331 info lifecycle chokidar@3.4.2~preinstall: chokidar@3.4.2
+332 silly preinstall sass@1.26.10
+333 info lifecycle sass@1.26.10~preinstall: sass@1.26.10
+334 timing action:preinstall Completed in 1ms
+335 silly doSerial build 128
+336 silly build binary-extensions@2.1.0
+337 info linkStuff binary-extensions@2.1.0
+338 silly linkStuff binary-extensions@2.1.0 has C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules as its parent node_modules
+339 silly linkStuff binary-extensions@2.1.0 is part of a global install
+340 silly linkStuff binary-extensions@2.1.0 is installed into a global node_modules
+341 silly build is-binary-path@2.1.0
+342 info linkStuff is-binary-path@2.1.0
+343 silly linkStuff is-binary-path@2.1.0 has C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules as its parent node_modules
+344 silly linkStuff is-binary-path@2.1.0 is part of a global install
+345 silly linkStuff is-binary-path@2.1.0 is installed into a global node_modules
+346 silly build is-extglob@2.1.1
+347 info linkStuff is-extglob@2.1.1
+348 silly linkStuff is-extglob@2.1.1 has C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules as its parent node_modules
+349 silly linkStuff is-extglob@2.1.1 is part of a global install
+350 silly linkStuff is-extglob@2.1.1 is installed into a global node_modules
+351 silly build is-glob@4.0.1
+352 info linkStuff is-glob@4.0.1
+353 silly linkStuff is-glob@4.0.1 has C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules as its parent node_modules
+354 silly linkStuff is-glob@4.0.1 is part of a global install
+355 silly linkStuff is-glob@4.0.1 is installed into a global node_modules
+356 silly build glob-parent@5.1.1
+357 info linkStuff glob-parent@5.1.1
+358 silly linkStuff glob-parent@5.1.1 has C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules as its parent node_modules
+359 silly linkStuff glob-parent@5.1.1 is part of a global install
+360 silly linkStuff glob-parent@5.1.1 is installed into a global node_modules
+361 silly build is-number@7.0.0
+362 info linkStuff is-number@7.0.0
+363 silly linkStuff is-number@7.0.0 has C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules as its parent node_modules
+364 silly linkStuff is-number@7.0.0 is part of a global install
+365 silly linkStuff is-number@7.0.0 is installed into a global node_modules
+366 silly build normalize-path@3.0.0
+367 info linkStuff normalize-path@3.0.0
+368 silly linkStuff normalize-path@3.0.0 has C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules as its parent node_modules
+369 silly linkStuff normalize-path@3.0.0 is part of a global install
+370 silly linkStuff normalize-path@3.0.0 is installed into a global node_modules
+371 silly build picomatch@2.2.2
+372 info linkStuff picomatch@2.2.2
+373 silly linkStuff picomatch@2.2.2 has C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules as its parent node_modules
+374 silly linkStuff picomatch@2.2.2 is part of a global install
+375 silly linkStuff picomatch@2.2.2 is installed into a global node_modules
+376 silly build anymatch@3.1.1
+377 info linkStuff anymatch@3.1.1
+378 silly linkStuff anymatch@3.1.1 has C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules as its parent node_modules
+379 silly linkStuff anymatch@3.1.1 is part of a global install
+380 silly linkStuff anymatch@3.1.1 is installed into a global node_modules
+381 silly build readdirp@3.4.0
+382 info linkStuff readdirp@3.4.0
+383 silly linkStuff readdirp@3.4.0 has C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules as its parent node_modules
+384 silly linkStuff readdirp@3.4.0 is part of a global install
+385 silly linkStuff readdirp@3.4.0 is installed into a global node_modules
+386 silly build to-regex-range@5.0.1
+387 info linkStuff to-regex-range@5.0.1
+388 silly linkStuff to-regex-range@5.0.1 has C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules as its parent node_modules
+389 silly linkStuff to-regex-range@5.0.1 is part of a global install
+390 silly linkStuff to-regex-range@5.0.1 is installed into a global node_modules
+391 silly build fill-range@7.0.1
+392 info linkStuff fill-range@7.0.1
+393 silly linkStuff fill-range@7.0.1 has C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules as its parent node_modules
+394 silly linkStuff fill-range@7.0.1 is part of a global install
+395 silly linkStuff fill-range@7.0.1 is installed into a global node_modules
+396 silly build braces@3.0.2
+397 info linkStuff braces@3.0.2
+398 silly linkStuff braces@3.0.2 has C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules as its parent node_modules
+399 silly linkStuff braces@3.0.2 is part of a global install
+400 silly linkStuff braces@3.0.2 is installed into a global node_modules
+401 silly build chokidar@3.4.2
+402 info linkStuff chokidar@3.4.2
+403 silly linkStuff chokidar@3.4.2 has C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass\node_modules as its parent node_modules
+404 silly linkStuff chokidar@3.4.2 is part of a global install
+405 silly linkStuff chokidar@3.4.2 is installed into a global node_modules
+406 silly build sass@1.26.10
+407 info linkStuff sass@1.26.10
+408 silly linkStuff sass@1.26.10 has C:\Users\John Suyang\AppData\Roaming\npm\node_modules as its parent node_modules
+409 silly linkStuff sass@1.26.10 is part of a global install
+410 silly linkStuff sass@1.26.10 is installed into a global node_modules
+411 silly linkStuff sass@1.26.10 is installed into the top-level global node_modules
+412 verbose linkBins [
+412 verbose linkBins   { sass: 'sass.js' },
+412 verbose linkBins   'C:\\Users\\John Suyang\\AppData\\Roaming\\npm',
+412 verbose linkBins   true
+412 verbose linkBins ]
+413 timing action:build Completed in 3ms
+414 verbose unlock done using C:\xampp\htdocs\sass-project-01\Users\John~Suyang\AppData\Roaming\npm-cache\_locks\staging-c7a0bc720cc28e97.lock for C:\Users\John Suyang\AppData\Roaming\npm\node_modules\.staging
+415 timing stage:rollbackFailedOptional Completed in 16ms
+416 timing stage:runTopLevelLifecycles Completed in 5191ms
+417 warn optional SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.1.2 (node_modules\sass\node_modules\chokidar\node_modules\fsevents):
+418 warn notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+419 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid OS:    darwin
+419 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid Arch:  any
+419 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual OS:   win32
+419 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual Arch: x64
+420 verbose stack Error: EPERM: operation not permitted, open 'C:\Users\John Suyang\AppData\Roaming\npm\sass'
+420 verbose stack     at isClobberable (C:\Program Files\nodejs\node_modules\npm\node_modules\gentle-fs\lib\bin-link.js:55:3)
+420 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\gentle-fs\lib\bin-link.js:38:27
+420 verbose stack     at Array.forEach (<anonymous>)
+420 verbose stack     at binLink (C:\Program Files\nodejs\node_modules\npm\node_modules\gentle-fs\lib\bin-link.js:38:13)
+420 verbose stack     at tryCatcher (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\util.js:16:23)
+420 verbose stack     at ret (eval at makeNodePromisifiedEval (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:11:39)
+420 verbose stack     at linkBin (C:\Program Files\nodejs\node_modules\npm\node_modules\bin-links\index.js:126:10)
+420 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\bin-links\index.js:91:12
+420 verbose stack     at tryCatcher (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\util.js:16:23)
+420 verbose stack     at MappingPromiseArray._promiseFulfilled (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\map.js:61:38)
+420 verbose stack     at MappingPromiseArray.PromiseArray._iterate (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\promise_array.js:114:31)
+420 verbose stack     at MappingPromiseArray.init (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\promise_array.js:78:10)
+420 verbose stack     at MappingPromiseArray._asyncInit (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\map.js:30:10)
+420 verbose stack     at _drainQueueStep (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\async.js:142:12)
+420 verbose stack     at _drainQueue (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\async.js:131:9)
+420 verbose stack     at Async._drainQueues (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\async.js:147:5)
+421 verbose cwd C:\xampp\htdocs\sass-project-01
+422 verbose Windows_NT 10.0.18362
+423 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "sass"
+424 verbose node v12.18.3
+425 verbose npm  v6.14.6
+426 error code EPERM
+427 error Error: EPERM: operation not permitted, open 'C:\Users\John Suyang\AppData\Roaming\npm\sass'
+427 error     at isClobberable (C:\Program Files\nodejs\node_modules\npm\node_modules\gentle-fs\lib\bin-link.js:55:3)
+427 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\gentle-fs\lib\bin-link.js:38:27
+427 error     at Array.forEach (<anonymous>)
+427 error     at binLink (C:\Program Files\nodejs\node_modules\npm\node_modules\gentle-fs\lib\bin-link.js:38:13)
+427 error     at tryCatcher (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\util.js:16:23)
+427 error     at ret (eval at makeNodePromisifiedEval (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:11:39)
+427 error     at linkBin (C:\Program Files\nodejs\node_modules\npm\node_modules\bin-links\index.js:126:10)
+427 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\bin-links\index.js:91:12
+427 error     at tryCatcher (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\util.js:16:23)
+427 error     at MappingPromiseArray._promiseFulfilled (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\map.js:61:38)
+427 error     at MappingPromiseArray.PromiseArray._iterate (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\promise_array.js:114:31)
+427 error     at MappingPromiseArray.init (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\promise_array.js:78:10)
+427 error     at MappingPromiseArray._asyncInit (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\map.js:30:10)
+427 error     at _drainQueueStep (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\async.js:142:12)
+427 error     at _drainQueue (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\async.js:131:9)
+427 error     at Async._drainQueues (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\async.js:147:5)
+427 error  OperationalError: EPERM: operation not permitted, open 'C:\Users\John Suyang\AppData\Roaming\npm\sass'
+427 error     at isClobberable (C:\Program Files\nodejs\node_modules\npm\node_modules\gentle-fs\lib\bin-link.js:55:3)
+427 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\gentle-fs\lib\bin-link.js:38:27
+427 error     at Array.forEach (<anonymous>)
+427 error     at binLink (C:\Program Files\nodejs\node_modules\npm\node_modules\gentle-fs\lib\bin-link.js:38:13)
+427 error     at tryCatcher (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\util.js:16:23)
+427 error     at ret (eval at makeNodePromisifiedEval (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:11:39)
+427 error     at linkBin (C:\Program Files\nodejs\node_modules\npm\node_modules\bin-links\index.js:126:10)
+427 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\bin-links\index.js:91:12
+427 error     at tryCatcher (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\util.js:16:23)
+427 error     at MappingPromiseArray._promiseFulfilled (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\map.js:61:38)
+427 error     at MappingPromiseArray.PromiseArray._iterate (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\promise_array.js:114:31)
+427 error     at MappingPromiseArray.init (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\promise_array.js:78:10)
+427 error     at MappingPromiseArray._asyncInit (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\map.js:30:10)
+427 error     at _drainQueueStep (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\async.js:142:12)
+427 error     at _drainQueue (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\async.js:131:9)
+427 error     at Async._drainQueues (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\async.js:147:5) {
+427 error   cause: Error: EPERM: operation not permitted, open 'C:\Users\John Suyang\AppData\Roaming\npm\sass'
+427 error       at isClobberable (C:\Program Files\nodejs\node_modules\npm\node_modules\gentle-fs\lib\bin-link.js:55:3)
+427 error       at C:\Program Files\nodejs\node_modules\npm\node_modules\gentle-fs\lib\bin-link.js:38:27
+427 error       at Array.forEach (<anonymous>)
+427 error       at binLink (C:\Program Files\nodejs\node_modules\npm\node_modules\gentle-fs\lib\bin-link.js:38:13)
+427 error       at tryCatcher (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\util.js:16:23)
+427 error       at ret (eval at makeNodePromisifiedEval (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:11:39)
+427 error       at linkBin (C:\Program Files\nodejs\node_modules\npm\node_modules\bin-links\index.js:126:10)
+427 error       at C:\Program Files\nodejs\node_modules\npm\node_modules\bin-links\index.js:91:12
+427 error       at tryCatcher (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\util.js:16:23)
+427 error       at MappingPromiseArray._promiseFulfilled (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\map.js:61:38)
+427 error       at MappingPromiseArray.PromiseArray._iterate (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\promise_array.js:114:31)
+427 error       at MappingPromiseArray.init (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\promise_array.js:78:10)
+427 error       at MappingPromiseArray._asyncInit (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\map.js:30:10)
+427 error       at _drainQueueStep (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\async.js:142:12)
+427 error       at _drainQueue (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\async.js:131:9)
+427 error       at Async._drainQueues (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\async.js:147:5) {
+427 error     code: 'EPERM'
+427 error   },
+427 error   code: 'EPERM'
+427 error }
+428 error The operation was rejected by your operating system.
+428 error It's possible that the file was already in use (by a text editor or antivirus),
+428 error or that you lack permissions to access it.
+428 error
+428 error If you believe this might be a permissions issue, please double-check the
+428 error permissions of the file and its containing directories, or try running
+428 error the command again as root/Administrator.
+429 verbose exit [ 1, true ]

@@ -1,0 +1,327 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   '-g',
+1 verbose cli   'sass'
+1 verbose cli ]
+2 info using npm@6.14.6
+3 info using node@v12.18.3
+4 verbose npm-session a72b1fda135e2a69
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/sass 1309ms
+8 http fetch GET 200 https://registry.npmjs.org/sass/-/sass-1.26.10.tgz 1052ms
+9 silly pacote tag manifest for sass@latest fetched in 2381ms
+10 timing stage:loadCurrentTree Completed in 2435ms
+11 silly install loadIdealTree
+12 silly install cloneCurrentTreeToIdealTree
+13 timing stage:loadIdealTree:cloneCurrentTree Completed in 0ms
+14 silly install loadShrinkwrap
+15 timing stage:loadIdealTree:loadShrinkwrap Completed in 4ms
+16 silly install loadAllDepsIntoIdealTree
+17 silly resolveWithNewModule sass@1.26.10 checking installable status
+18 silly removeObsoleteDep removing sass@1.26.10 from the tree as its been replaced by a newer version or is no longer required
+19 silly removeObsoleteDep removing chokidar@3.4.2 from the tree as its been replaced by a newer version or is no longer required
+20 silly removeObsoleteDep removing anymatch@3.1.1 from the tree as its been replaced by a newer version or is no longer required
+21 silly removeObsoleteDep removing normalize-path@3.0.0 from the tree as its been replaced by a newer version or is no longer required
+22 silly removeObsoleteDep removing picomatch@2.2.2 from the tree as its been replaced by a newer version or is no longer required
+23 silly removeObsoleteDep removing braces@3.0.2 from the tree as its been replaced by a newer version or is no longer required
+24 silly removeObsoleteDep removing fill-range@7.0.1 from the tree as its been replaced by a newer version or is no longer required
+25 silly removeObsoleteDep removing to-regex-range@5.0.1 from the tree as its been replaced by a newer version or is no longer required
+26 silly removeObsoleteDep removing is-number@7.0.0 from the tree as its been replaced by a newer version or is no longer required
+27 silly removeObsoleteDep removing glob-parent@5.1.1 from the tree as its been replaced by a newer version or is no longer required
+28 silly removeObsoleteDep removing is-glob@4.0.1 from the tree as its been replaced by a newer version or is no longer required
+29 silly removeObsoleteDep removing is-extglob@2.1.1 from the tree as its been replaced by a newer version or is no longer required
+30 silly removeObsoleteDep removing is-binary-path@2.1.0 from the tree as its been replaced by a newer version or is no longer required
+31 silly removeObsoleteDep removing binary-extensions@2.1.0 from the tree as its been replaced by a newer version or is no longer required
+32 silly removeObsoleteDep removing readdirp@3.4.0 from the tree as its been replaced by a newer version or is no longer required
+33 http fetch GET 200 https://registry.npmjs.org/chokidar 267ms
+34 http fetch GET 200 https://registry.npmjs.org/chokidar/-/chokidar-3.4.2.tgz 247ms
+35 silly pacote range manifest for chokidar@>=2.0.0 <4.0.0 fetched in 521ms
+36 silly resolveWithNewModule chokidar@3.4.2 checking installable status
+37 http fetch GET 200 https://registry.npmjs.org/anymatch 241ms
+38 http fetch GET 200 https://registry.npmjs.org/anymatch/-/anymatch-3.1.1.tgz 224ms
+39 silly pacote range manifest for anymatch@~3.1.1 fetched in 470ms
+40 silly resolveWithNewModule anymatch@3.1.1 checking installable status
+41 http fetch GET 200 https://registry.npmjs.org/normalize-path 638ms
+42 http fetch GET 200 https://registry.npmjs.org/braces 645ms
+43 http fetch GET 200 https://registry.npmjs.org/glob-parent 647ms
+44 http fetch GET 200 https://registry.npmjs.org/is-glob 648ms
+45 http fetch GET 200 https://registry.npmjs.org/is-binary-path 648ms
+46 http fetch GET 200 https://registry.npmjs.org/readdirp 649ms
+47 http fetch GET 200 https://registry.npmjs.org/fsevents 657ms
+48 http fetch GET 200 https://registry.npmjs.org/fsevents/-/fsevents-2.1.3.tgz 305ms
+49 http fetch GET 200 https://registry.npmjs.org/is-glob/-/is-glob-4.0.1.tgz 315ms
+50 http fetch GET 200 https://registry.npmjs.org/braces/-/braces-3.0.2.tgz 318ms
+51 http fetch GET 200 https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz 326ms
+52 http fetch GET 200 https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.1.tgz 317ms
+53 http fetch GET 200 https://registry.npmjs.org/is-binary-path/-/is-binary-path-2.1.0.tgz 316ms
+54 http fetch GET 200 https://registry.npmjs.org/readdirp/-/readdirp-3.4.0.tgz 316ms
+55 silly pacote range manifest for fsevents@~2.1.2 fetched in 970ms
+56 silly resolveWithNewModule fsevents@2.1.3 checking installable status
+57 silly pacote range manifest for is-glob@~4.0.1 fetched in 973ms
+58 silly resolveWithNewModule is-glob@4.0.1 checking installable status
+59 silly pacote range manifest for braces@~3.0.2 fetched in 974ms
+60 silly resolveWithNewModule braces@3.0.2 checking installable status
+61 silly pacote range manifest for normalize-path@~3.0.0 fetched in 973ms
+62 silly resolveWithNewModule normalize-path@3.0.0 checking installable status
+63 silly pacote range manifest for glob-parent@~5.1.0 fetched in 975ms
+64 silly resolveWithNewModule glob-parent@5.1.1 checking installable status
+65 silly pacote range manifest for is-binary-path@~2.1.0 fetched in 974ms
+66 silly resolveWithNewModule is-binary-path@2.1.0 checking installable status
+67 silly pacote range manifest for readdirp@~3.4.0 fetched in 974ms
+68 silly resolveWithNewModule readdirp@3.4.0 checking installable status
+69 http fetch GET 200 https://registry.npmjs.org/picomatch 244ms
+70 http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-2.2.2.tgz 220ms
+71 silly pacote range manifest for picomatch@^2.0.4 fetched in 472ms
+72 silly resolveWithNewModule picomatch@2.2.2 checking installable status
+73 http fetch GET 200 https://registry.npmjs.org/fill-range 216ms
+74 http fetch GET 200 https://registry.npmjs.org/fill-range/-/fill-range-7.0.1.tgz 220ms
+75 silly pacote range manifest for fill-range@^7.0.1 fetched in 448ms
+76 silly resolveWithNewModule fill-range@7.0.1 checking installable status
+77 http fetch GET 200 https://registry.npmjs.org/to-regex-range 270ms
+78 http fetch GET 200 https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz 213ms
+79 silly pacote range manifest for to-regex-range@^5.0.1 fetched in 490ms
+80 silly resolveWithNewModule to-regex-range@5.0.1 checking installable status
+81 http fetch GET 200 https://registry.npmjs.org/is-number 223ms
+82 http fetch GET 200 https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz 265ms
+83 silly pacote range manifest for is-number@^7.0.0 fetched in 496ms
+84 silly resolveWithNewModule is-number@7.0.0 checking installable status
+85 http fetch GET 200 https://registry.npmjs.org/is-extglob 226ms
+86 http fetch GET 200 https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz 224ms
+87 silly pacote range manifest for is-extglob@^2.1.1 fetched in 467ms
+88 silly resolveWithNewModule is-extglob@2.1.1 checking installable status
+89 http fetch GET 200 https://registry.npmjs.org/binary-extensions 220ms
+90 http fetch GET 200 https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.1.0.tgz 216ms
+91 silly pacote range manifest for binary-extensions@^2.0.0 fetched in 444ms
+92 silly resolveWithNewModule binary-extensions@2.1.0 checking installable status
+93 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 4335ms
+94 timing stage:loadIdealTree Completed in 4343ms
+95 silly currentTree npm
+95 silly currentTree `-- sass@1.26.10
+95 silly currentTree   +-- anymatch@3.1.1
+95 silly currentTree   +-- binary-extensions@2.1.0
+95 silly currentTree   +-- braces@3.0.2
+95 silly currentTree   +-- chokidar@3.4.2
+95 silly currentTree   +-- fill-range@7.0.1
+95 silly currentTree   +-- glob-parent@5.1.1
+95 silly currentTree   +-- is-binary-path@2.1.0
+95 silly currentTree   +-- is-extglob@2.1.1
+95 silly currentTree   +-- is-glob@4.0.1
+95 silly currentTree   +-- is-number@7.0.0
+95 silly currentTree   +-- normalize-path@3.0.0
+95 silly currentTree   +-- picomatch@2.2.2
+95 silly currentTree   +-- readdirp@3.4.0
+95 silly currentTree   `-- to-regex-range@5.0.1
+96 silly idealTree npm
+96 silly idealTree `-- sass@1.26.10
+96 silly idealTree   +-- anymatch@3.1.1
+96 silly idealTree   +-- binary-extensions@2.1.0
+96 silly idealTree   +-- braces@3.0.2
+96 silly idealTree   +-- chokidar@3.4.2
+96 silly idealTree   +-- fill-range@7.0.1
+96 silly idealTree   +-- fsevents@2.1.3
+96 silly idealTree   +-- glob-parent@5.1.1
+96 silly idealTree   +-- is-binary-path@2.1.0
+96 silly idealTree   +-- is-extglob@2.1.1
+96 silly idealTree   +-- is-glob@4.0.1
+96 silly idealTree   +-- is-number@7.0.0
+96 silly idealTree   +-- normalize-path@3.0.0
+96 silly idealTree   +-- picomatch@2.2.2
+96 silly idealTree   +-- readdirp@3.4.0
+96 silly idealTree   `-- to-regex-range@5.0.1
+97 silly install generateActionsToTake
+98 timing stage:generateActionsToTake Completed in 3ms
+99 silly diffTrees action count 2
+100 silly diffTrees add fsevents@2.1.3
+101 silly diffTrees update sass@1.26.10
+102 silly decomposeActions action count 18
+103 silly decomposeActions fetch fsevents@2.1.3
+104 silly decomposeActions extract fsevents@2.1.3
+105 silly decomposeActions preinstall fsevents@2.1.3
+106 silly decomposeActions build fsevents@2.1.3
+107 silly decomposeActions install fsevents@2.1.3
+108 silly decomposeActions postinstall fsevents@2.1.3
+109 silly decomposeActions finalize fsevents@2.1.3
+110 silly decomposeActions refresh-package-json fsevents@2.1.3
+111 silly decomposeActions unbuild sass@1.26.10
+112 silly decomposeActions remove sass@1.26.10
+113 silly decomposeActions fetch sass@1.26.10
+114 silly decomposeActions extract sass@1.26.10
+115 silly decomposeActions preinstall sass@1.26.10
+116 silly decomposeActions build sass@1.26.10
+117 silly decomposeActions install sass@1.26.10
+118 silly decomposeActions postinstall sass@1.26.10
+119 silly decomposeActions finalize sass@1.26.10
+120 silly decomposeActions refresh-package-json sass@1.26.10
+121 silly install executeActions
+122 silly doSerial global-install 18
+123 verbose correctMkdir C:\xampp\htdocs\sass-project-01\Users\John~Suyang\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+124 verbose makeCacheDir UID & GID are irrelevant on win32
+125 verbose lock using C:\xampp\htdocs\sass-project-01\Users\John~Suyang\AppData\Roaming\npm-cache\_locks\staging-c7a0bc720cc28e97.lock for C:\Users\John Suyang\AppData\Roaming\npm\node_modules\.staging
+126 silly doParallel extract 2
+127 silly extract sass@1.26.10
+128 silly tarball trying sass@latest by hash: sha512-bzN0uvmzfsTvjz0qwccN1sPm2HxxpNI/Xa+7PlUEMS+nQvbyuEK7Y0qFqxlPHhiNHb1Ze8WQJtU31olMObkAMw==
+129 silly extract sass@latest extracted to C:\Users\John Suyang\AppData\Roaming\npm\node_modules\.staging\sass-9f71a4e8 (31ms)
+130 timing action:extract Completed in 33ms
+131 silly doReverseSerial unbuild 18
+132 silly unbuild sass@1.26.10
+133 info lifecycle sass@1.26.10~preuninstall: sass@1.26.10
+134 info lifecycle sass@1.26.10~uninstall: sass@1.26.10
+135 verbose unbuild rmStuff sass@1.26.10 from C:\Users\John Suyang\AppData\Roaming\npm\node_modules
+136 silly isEverInside C:\Users\John Suyang\AppData\Roaming\npm\sass.ps1 is not inside C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass
+137 silly gentlyRm parent.path = C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass
+138 silly gentlyRm parent.managed = C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass is in C:\Users\John Suyang\AppData\Roaming\npm
+139 silly gentlyRm target.path =  C:\Users\John Suyang\AppData\Roaming\npm\sass.ps1
+140 silly gentlyRm target.symlink = node_modules/sass/sass.js
+141 silly gentlyRm target.managed = C:\Users\John Suyang\AppData\Roaming\npm\sass.ps1 is in C:\Users\John Suyang\AppData\Roaming\npm
+142 silly gentlyRm target.inParent =  {
+142 silly gentlyRm   target: 'C:\\Users\\John Suyang\\AppData\\Roaming\\npm\\node_modules\\sass\\sass.js',
+142 silly gentlyRm   path: 'C:\\Users\\John Suyang\\AppData\\Roaming\\npm\\node_modules\\sass'
+142 silly gentlyRm }
+143 silly isEverInside C:\Users\John Suyang\AppData\Roaming\npm\sass.cmd is not inside C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass
+144 silly gentlyRm parent.path = C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass
+145 silly gentlyRm parent.managed = C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass is in C:\Users\John Suyang\AppData\Roaming\npm
+146 silly gentlyRm target.path =  C:\Users\John Suyang\AppData\Roaming\npm\sass.cmd
+147 silly gentlyRm target.symlink = node_modules\sass\sass.js
+148 silly gentlyRm target.managed = C:\Users\John Suyang\AppData\Roaming\npm\sass.cmd is in C:\Users\John Suyang\AppData\Roaming\npm
+149 silly gentlyRm target.inParent =  {
+149 silly gentlyRm   target: 'C:\\Users\\John Suyang\\AppData\\Roaming\\npm\\node_modules\\sass\\sass.js',
+149 silly gentlyRm   path: 'C:\\Users\\John Suyang\\AppData\\Roaming\\npm\\node_modules\\sass'
+149 silly gentlyRm }
+150 silly isEverInside C:\Users\John Suyang\AppData\Roaming\npm\sass is not inside C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass
+151 silly gentlyRm parent.path = C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass
+152 silly gentlyRm parent.managed = C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass is in C:\Users\John Suyang\AppData\Roaming\npm
+153 silly gentlyRm target.path =  C:\Users\John Suyang\AppData\Roaming\npm\sass
+154 silly gentlyRm target.symlink = node_modules/sass/sass.js
+155 silly gentlyRm target.managed = C:\Users\John Suyang\AppData\Roaming\npm\sass is in C:\Users\John Suyang\AppData\Roaming\npm
+156 silly gentlyRm target.inParent =  {
+156 silly gentlyRm   target: 'C:\\Users\\John Suyang\\AppData\\Roaming\\npm\\node_modules\\sass\\sass.js',
+156 silly gentlyRm   path: 'C:\\Users\\John Suyang\\AppData\\Roaming\\npm\\node_modules\\sass'
+156 silly gentlyRm }
+157 info lifecycle sass@1.26.10~postuninstall: sass@1.26.10
+158 timing action:unbuild Completed in 11ms
+159 silly doSerial remove 18
+160 silly remove C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass
+161 timing action:remove Completed in 9ms
+162 silly doSerial move 18
+163 silly doSerial finalize 18
+164 silly finalize C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass
+165 timing action:finalize Completed in 8ms
+166 silly doParallel refresh-package-json 2
+167 silly refresh-package-json C:\Users\John Suyang\AppData\Roaming\npm\node_modules\sass
+168 timing action:refresh-package-json Completed in 7ms
+169 silly doParallel preinstall 2
+170 silly preinstall sass@1.26.10
+171 info lifecycle sass@1.26.10~preinstall: sass@1.26.10
+172 timing action:preinstall Completed in 0ms
+173 silly doSerial build 18
+174 silly build sass@1.26.10
+175 info linkStuff sass@1.26.10
+176 silly linkStuff sass@1.26.10 has C:\Users\John Suyang\AppData\Roaming\npm\node_modules as its parent node_modules
+177 silly linkStuff sass@1.26.10 is part of a global install
+178 silly linkStuff sass@1.26.10 is installed into a global node_modules
+179 silly linkStuff sass@1.26.10 is installed into the top-level global node_modules
+180 verbose linkBins [
+180 verbose linkBins   { sass: 'sass.js' },
+180 verbose linkBins   'C:\\Users\\John Suyang\\AppData\\Roaming\\npm',
+180 verbose linkBins   true
+180 verbose linkBins ]
+181 timing action:build Completed in 2ms
+182 verbose unlock done using C:\xampp\htdocs\sass-project-01\Users\John~Suyang\AppData\Roaming\npm-cache\_locks\staging-c7a0bc720cc28e97.lock for C:\Users\John Suyang\AppData\Roaming\npm\node_modules\.staging
+183 timing stage:rollbackFailedOptional Completed in 12ms
+184 timing stage:runTopLevelLifecycles Completed in 6868ms
+185 warn optional SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.1.2 (node_modules\sass\node_modules\chokidar\node_modules\fsevents):
+186 warn notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+187 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid OS:    darwin
+187 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid Arch:  any
+187 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual OS:   win32
+187 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual Arch: x64
+188 verbose stack Error: EPERM: operation not permitted, open 'C:\Users\John Suyang\AppData\Roaming\npm\sass'
+188 verbose stack     at isClobberable (C:\Program Files\nodejs\node_modules\npm\node_modules\gentle-fs\lib\bin-link.js:55:3)
+188 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\gentle-fs\lib\bin-link.js:38:27
+188 verbose stack     at Array.forEach (<anonymous>)
+188 verbose stack     at binLink (C:\Program Files\nodejs\node_modules\npm\node_modules\gentle-fs\lib\bin-link.js:38:13)
+188 verbose stack     at tryCatcher (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\util.js:16:23)
+188 verbose stack     at ret (eval at makeNodePromisifiedEval (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:11:39)
+188 verbose stack     at linkBin (C:\Program Files\nodejs\node_modules\npm\node_modules\bin-links\index.js:126:10)
+188 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\bin-links\index.js:91:12
+188 verbose stack     at tryCatcher (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\util.js:16:23)
+188 verbose stack     at MappingPromiseArray._promiseFulfilled (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\map.js:61:38)
+188 verbose stack     at MappingPromiseArray.PromiseArray._iterate (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\promise_array.js:114:31)
+188 verbose stack     at MappingPromiseArray.init (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\promise_array.js:78:10)
+188 verbose stack     at MappingPromiseArray._asyncInit (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\map.js:30:10)
+188 verbose stack     at _drainQueueStep (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\async.js:142:12)
+188 verbose stack     at _drainQueue (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\async.js:131:9)
+188 verbose stack     at Async._drainQueues (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\async.js:147:5)
+189 verbose cwd C:\xampp\htdocs\sass-project-01
+190 verbose Windows_NT 10.0.18362
+191 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "-g" "sass"
+192 verbose node v12.18.3
+193 verbose npm  v6.14.6
+194 error code EPERM
+195 error Error: EPERM: operation not permitted, open 'C:\Users\John Suyang\AppData\Roaming\npm\sass'
+195 error     at isClobberable (C:\Program Files\nodejs\node_modules\npm\node_modules\gentle-fs\lib\bin-link.js:55:3)
+195 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\gentle-fs\lib\bin-link.js:38:27
+195 error     at Array.forEach (<anonymous>)
+195 error     at binLink (C:\Program Files\nodejs\node_modules\npm\node_modules\gentle-fs\lib\bin-link.js:38:13)
+195 error     at tryCatcher (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\util.js:16:23)
+195 error     at ret (eval at makeNodePromisifiedEval (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:11:39)
+195 error     at linkBin (C:\Program Files\nodejs\node_modules\npm\node_modules\bin-links\index.js:126:10)
+195 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\bin-links\index.js:91:12
+195 error     at tryCatcher (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\util.js:16:23)
+195 error     at MappingPromiseArray._promiseFulfilled (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\map.js:61:38)
+195 error     at MappingPromiseArray.PromiseArray._iterate (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\promise_array.js:114:31)
+195 error     at MappingPromiseArray.init (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\promise_array.js:78:10)
+195 error     at MappingPromiseArray._asyncInit (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\map.js:30:10)
+195 error     at _drainQueueStep (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\async.js:142:12)
+195 error     at _drainQueue (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\async.js:131:9)
+195 error     at Async._drainQueues (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\async.js:147:5)
+195 error  OperationalError: EPERM: operation not permitted, open 'C:\Users\John Suyang\AppData\Roaming\npm\sass'
+195 error     at isClobberable (C:\Program Files\nodejs\node_modules\npm\node_modules\gentle-fs\lib\bin-link.js:55:3)
+195 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\gentle-fs\lib\bin-link.js:38:27
+195 error     at Array.forEach (<anonymous>)
+195 error     at binLink (C:\Program Files\nodejs\node_modules\npm\node_modules\gentle-fs\lib\bin-link.js:38:13)
+195 error     at tryCatcher (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\util.js:16:23)
+195 error     at ret (eval at makeNodePromisifiedEval (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:11:39)
+195 error     at linkBin (C:\Program Files\nodejs\node_modules\npm\node_modules\bin-links\index.js:126:10)
+195 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\bin-links\index.js:91:12
+195 error     at tryCatcher (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\util.js:16:23)
+195 error     at MappingPromiseArray._promiseFulfilled (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\map.js:61:38)
+195 error     at MappingPromiseArray.PromiseArray._iterate (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\promise_array.js:114:31)
+195 error     at MappingPromiseArray.init (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\promise_array.js:78:10)
+195 error     at MappingPromiseArray._asyncInit (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\map.js:30:10)
+195 error     at _drainQueueStep (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\async.js:142:12)
+195 error     at _drainQueue (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\async.js:131:9)
+195 error     at Async._drainQueues (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\async.js:147:5) {
+195 error   cause: Error: EPERM: operation not permitted, open 'C:\Users\John Suyang\AppData\Roaming\npm\sass'
+195 error       at isClobberable (C:\Program Files\nodejs\node_modules\npm\node_modules\gentle-fs\lib\bin-link.js:55:3)
+195 error       at C:\Program Files\nodejs\node_modules\npm\node_modules\gentle-fs\lib\bin-link.js:38:27
+195 error       at Array.forEach (<anonymous>)
+195 error       at binLink (C:\Program Files\nodejs\node_modules\npm\node_modules\gentle-fs\lib\bin-link.js:38:13)
+195 error       at tryCatcher (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\util.js:16:23)
+195 error       at ret (eval at makeNodePromisifiedEval (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:11:39)
+195 error       at linkBin (C:\Program Files\nodejs\node_modules\npm\node_modules\bin-links\index.js:126:10)
+195 error       at C:\Program Files\nodejs\node_modules\npm\node_modules\bin-links\index.js:91:12
+195 error       at tryCatcher (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\util.js:16:23)
+195 error       at MappingPromiseArray._promiseFulfilled (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\map.js:61:38)
+195 error       at MappingPromiseArray.PromiseArray._iterate (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\promise_array.js:114:31)
+195 error       at MappingPromiseArray.init (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\promise_array.js:78:10)
+195 error       at MappingPromiseArray._asyncInit (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\map.js:30:10)
+195 error       at _drainQueueStep (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\async.js:142:12)
+195 error       at _drainQueue (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\async.js:131:9)
+195 error       at Async._drainQueues (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\async.js:147:5) {
+195 error     code: 'EPERM'
+195 error   },
+195 error   code: 'EPERM'
+195 error }
+196 error The operation was rejected by your operating system.
+196 error It's possible that the file was already in use (by a text editor or antivirus),
+196 error or that you lack permissions to access it.
+196 error
+196 error If you believe this might be a permissions issue, please double-check the
+196 error permissions of the file and its containing directories, or try running
+196 error the command again as root/Administrator.
+197 verbose exit [ 1, true ]
